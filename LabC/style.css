@@ -1,0 +1,48 @@
+#map {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.puzzle-piece {
+    display: inline-block;
+    width: calc(25% - 10px);
+    height: 75px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 400px;
+}
+
+.block {
+    background-size: cover;
+    position: relative;
+    border: 2px solid #333;
+    background-color: #ddb2b2;
+    height: 100px;
+}
+
+.block img {
+    width: 100%;
+    height: 100%;
+}

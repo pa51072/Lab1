@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="mapa">
+                <div id="map"></div>
+                <button id="getLocation">Moja Lokalizacja</button>
+                <button id="saveButton">Pobierz mapę</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="board" id="board"></div>
+        </div>
+    </div>
+
+    <div id="puzzleContainer"></div>
+    <br /><br />
+    <img id="RasterImage"/>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
