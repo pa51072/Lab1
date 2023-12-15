@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pogoda</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Pogoda</h1>
+    <label for="addressInput">Wpisz swoje miasto</label>
+    <input type="text" id="addressInput" placeholder="Miasto" />
+    <button onclick="getWeather()">Pobierz pogodę</button>
+    <div id="currentWeather"></div>
+    <div id="forecast"></div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>

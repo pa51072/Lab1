@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    display: block;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #addressInput {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #forecast {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .dayForecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dayForecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .hourlyForecast {
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #3f3f3f;
+    background-color: #e6dfdf;
+  }
+
+  .hourlyForecast h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .hourlyForecast img {
+    max-width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .hourlyForecast {
+      width: calc(50% - 20px);
+    }
+  }
+  
